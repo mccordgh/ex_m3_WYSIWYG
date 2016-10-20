@@ -12,46 +12,64 @@ input {
 person {
 	display: inline-block;
 	width: 300px;
-	margin: 0 50px;
-	height: 400px;
+	margin: 0 50px 50px;
+	height: 500px;
 	border: 1px solid black;
-	background-color: yellow;
 }
 
 person header {
-	height: 10%;
+	height: 8%;
 	width: 100%;
 	text-align: center;
-	background-color: green;
+	padding-top: 8px;
+	border-bottom: 1px solid black;
+
+
 }
 
 person footer {
-	height: 10%;
+	height: 8%;
 	width: 100%;
 	text-align: center;
-	background-color: lightblue;
 	top: 0;
 	bottom: 50px;
 	margin: 0;
+	padding-top: 8px;
+	border-top: 1px solid black;
 }
+
 
 person section {
 	width: 100%;
 	height: 80%;
-	background-color: lightgrey;
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
 
+person p {
+	padding: 0 15px 5px;
+
+}
 
 
 
 .bioImage {
 	height: 150px;
-	width: 100px;
+	width: 90%;
+	margin: 10px 5% 5px;
 }
 
+.even {
+	background-color: lightyellow;
+}
 
+.odd {
+	background-color: lightblue;
+}
+
+.selected {
+	border: 3px dotted grey;
+}
 
 
 #boxer {
